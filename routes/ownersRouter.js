@@ -23,8 +23,7 @@ if (process.env.NODE_ENV === "development") {
     });
 }
 
-
-router.get("/", (req, res) => {
+router.get("/admin", (req, res) => {
     res.send("ownerrouterjs is working");
 });
 
