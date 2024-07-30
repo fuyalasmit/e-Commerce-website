@@ -14,9 +14,9 @@ if (process.env.NODE_ENV === "development") {
         let { fullname, email, password } = req.body;
 
         let createdOwner = await ownersModel.create({
-            fullname ,
-            email ,
-            password ,
+            fullname,
+            email,
+            password,
         });
 
         res.status(201).send(createdOwner);
@@ -24,7 +24,8 @@ if (process.env.NODE_ENV === "development") {
 }
 
 router.get("/admin", (req, res) => {
-    res.send("ownerrouterjs is working");
+    let success = req.flash("success");
+    res.render("createproducts", { success });
 });
 
 
