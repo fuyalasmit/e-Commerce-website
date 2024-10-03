@@ -1,7 +1,7 @@
 {
   "name": "e-commerce-website",
   "version": "1.0.0",
-  "description": "This project involves building a fully functional e-commerce website, (will update more after final touch)",
+  "description": "This project involves building a fully functional e-commerce website using express,mongoose and ejs.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
