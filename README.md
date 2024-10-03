@@ -35,7 +35,7 @@ A fully functional e-commerce website built with **Node.js**, **Express.js**, **
     - Navigate to `config/development.json` and add your local MongoDB URI:
     ```json
     {
-        "MONGODB_URI": <Your MongoDB URI>
+        "MONGODB_URI": "<Your MongoDB URI>"
     }
     ```
 
