@@ -74,4 +74,4 @@ A fully functional e-commerce website built with **Node.js**, **Express.js**, **
 - bcrypt for password hashing
 
 ## License
-This project is licensed under the ISC License.
+This project is licensed under the **ISC License**.
